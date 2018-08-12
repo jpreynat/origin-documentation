@@ -1,5 +1,3 @@
-# Welcome!
-
 Welcome to the Poutineer Origin Service developer hub. You'll find comprehensive guides and documentation to help you start working with Poutineer Origin Service as quickly as possible, as well as support if you get stuck. Let's jump right in!
 
 

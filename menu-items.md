@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T03:22:43-07:00
+description: Last updated 2018-08-13T03:29:34-07:00
 ---
 
 # Menu Items
@@ -10,10 +10,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.099+00:00">2018-08-13T10:22:43.099+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.053+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/menu_items" %}
   {% api-method-summary %}
@@ -21,10 +19,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.102+00:00">2018-08-13T10:22:43.102+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.056+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
@@ -32,10 +28,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.105+00:00">2018-08-13T10:22:43.105+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.060+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
@@ -43,10 +37,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.108+00:00">2018-08-13T10:22:43.108+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.063+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="PUT" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
@@ -54,10 +46,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.111+00:00">2018-08-13T10:22:43.111+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.067+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
@@ -65,8 +55,6 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.115+00:00">2018-08-13T10:22:43.115+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.070+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}

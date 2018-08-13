@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T03:22:43-07:00
+description: Last updated 2018-08-13T03:29:34-07:00
 ---
 
 # Payments
@@ -10,10 +10,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.124+00:00">2018-08-13T10:22:43.124+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.081+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -21,10 +19,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.127+00:00">2018-08-13T10:22:43.127+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.084+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -32,10 +28,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.131+00:00">2018-08-13T10:22:43.131+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.087+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -43,10 +37,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.134+00:00">2018-08-13T10:22:43.134+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.090+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="PUT" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -54,10 +46,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.137+00:00">2018-08-13T10:22:43.137+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.093+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -65,10 +55,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.141+00:00">2018-08-13T10:22:43.141+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.096+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -76,10 +64,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.144+00:00">2018-08-13T10:22:43.144+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.100+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -87,10 +73,8 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.147+00:00">2018-08-13T10:22:43.147+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.103+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -98,8 +82,6 @@ description: Last updated 2018-08-13T03:22:43-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:22:43.150+00:00">2018-08-13T10:22:43.150+00:00</time>*.
+    *Last updated 2018-08-13T10:29:34.106+00:00*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}

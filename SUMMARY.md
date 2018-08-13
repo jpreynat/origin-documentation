@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Introduction to the Service](README.md)
-* Resources
-  * [Accounts \(v1\)](/accounts/v1)
-  * [Payments \(v1\)](/payments/v1)
-  * [Sessions \(v1\)](/sessions/v1)
-  * [JSONAPI Home Resources \(v1\)](/jsonapi-home-resources/v1)
+* [Resources](resources/README.md)
+  * [Accounts \(v1\)](resources/accounts-v1.md)
+  * [Payments \(v1\)](resources/payments-v1.md)
+  * [Sessions \(v1\)](resources/sessions-v1.md)
+  * [JSONAPI Home Resources \(v1\)](resources/jsonapi-home-resources-v1.md)
+

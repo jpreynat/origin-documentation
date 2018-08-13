@@ -27,4 +27,3 @@
   * [v1](tags/v1.md)
 * [JSONAPI Home Resources](jsonapi-home-resources/README.md)
   * [v1](jsonapi-home-resources/v1.md)
-

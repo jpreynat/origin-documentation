@@ -2,7 +2,7 @@
 description: Last updated <%= updated_at %>
 ---
 
-# <%= namespace.humanize.titlecase %> <%= version %>
+# <%= version %>
 
 <% collection.each do |resource| %>
 {% api-method method="<%= resource.fetch("verb") %>" host="<%= Addressable::URI.parse(resource.fetch("href")).origin %>" path="<%= Addressable::URI.parse(resource.fetch("href")).path %>" %}

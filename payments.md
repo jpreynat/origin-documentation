@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T03:03:24-07:00
+description: Last updated 2018-08-13T03:09:04-07:00
 ---
 
 # Payments
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.493+00:00">2018-08-13T10:03:24.493+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.907+00:00">2018-08-13T10:09:03.907+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -44,7 +44,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.496+00:00">2018-08-13T10:03:24.496+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.908+00:00">2018-08-13T10:09:03.908+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -81,7 +81,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.499+00:00">2018-08-13T10:03:24.499+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.910+00:00">2018-08-13T10:09:03.910+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -115,7 +115,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.501+00:00">2018-08-13T10:03:24.501+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.912+00:00">2018-08-13T10:09:03.912+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -152,7 +152,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.504+00:00">2018-08-13T10:03:24.504+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.913+00:00">2018-08-13T10:09:03.913+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -189,7 +189,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.507+00:00">2018-08-13T10:03:24.507+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.915+00:00">2018-08-13T10:09:03.915+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -223,7 +223,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.509+00:00">2018-08-13T10:03:24.509+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.917+00:00">2018-08-13T10:09:03.917+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -257,7 +257,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.512+00:00">2018-08-13T10:03:24.512+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.918+00:00">2018-08-13T10:09:03.918+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -294,7 +294,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.515+00:00">2018-08-13T10:03:24.515+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.921+00:00">2018-08-13T10:09:03.921+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}

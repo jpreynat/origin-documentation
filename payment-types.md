@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T03:03:24-07:00
+description: Last updated 2018-08-13T03:09:04-07:00
 ---
 
 # Payment Types
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.488+00:00">2018-08-13T10:03:24.488+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.903+00:00">2018-08-13T10:09:03.903+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -44,7 +44,7 @@ description: Last updated 2018-08-13T03:03:24-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T10:03:24.491+00:00">2018-08-13T10:03:24.491+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:09:03.905+00:00">2018-08-13T10:09:03.905+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}

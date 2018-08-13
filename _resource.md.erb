@@ -5,20 +5,20 @@ description: Last updated <%= updated_at %>
 # <%= namespace.humanize.titlecase %>
 
 <% collection.each do |resource| %>
-{% api-method method="<%= resource.fetch("verb") %>" host="<%= Addressable::URI.parse(resource.fetch("href")).origin %>" path="<%= Addressable::URI.parse(resource.fetch("href")).path %>" %}
+{% api-method method="<%= resource.fetch("verb").downcase %>" host="<%= Addressable::URI.parse(resource.fetch("href")).origin %>" path="<%= Addressable::URI.parse(resource.fetch("href")).path %>" %}
   {% api-method-summary %}
     <%= resource.fetch("intent") %>
   {% endapi-method-summary %}
 
   {% api-method-spec %}
     {% api-method-request %}
-      {% api-method-path-parameters %}
-        {% api-method-parameter name="ida" type="string" %}
-          ID of the cake to get, for free of course.
+      {% api-method-headers %}
+        {% api-method-parameter name="If-Match" type="string" %}
         {% endapi-method-parameter %}
-      {% endapi-method-path-parameters %}
-
+      {% endapi-method-headers %}
     {% endapi-method-request %}
+    {% api-method-response %}
+    {% endapi-method-response %}
   {% endapi-method-spec %}
 {% endapi-method %}
 <% end %>

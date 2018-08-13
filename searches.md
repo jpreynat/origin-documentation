@@ -1,38 +1,38 @@
 ---
-description: Last updated 2018-08-13T03:40:33-07:00
+description: Last updated 2018-08-13T03:41:55-07:00
 ---
 
 # Searches
 
-{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/searches" %}
+{% api-method method="post" host="https://origin.poutineer.com" path="/v1/searches" %}
   {% api-method-summary %}
     create
   {% endapi-method-summary %}
 
   {% api-method-spec %}
     {% api-method-request %}
-      {% api-method-path-parameters %}
-        {% api-method-parameter name="ida" type="string" %}
-          ID of the cake to get, for free of course.
+      {% api-method-headers %}
+        {% api-method-parameter name="If-Match" type="string" %}
         {% endapi-method-parameter %}
-      {% endapi-method-path-parameters %}
-
+      {% endapi-method-headers %}
     {% endapi-method-request %}
+    {% api-method-response %}
+    {% endapi-method-response %}
   {% endapi-method-spec %}
 {% endapi-method %}
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/searches/{id}" %}
+{% api-method method="get" host="https://origin.poutineer.com" path="/v1/searches/{id}" %}
   {% api-method-summary %}
     show
   {% endapi-method-summary %}
 
   {% api-method-spec %}
     {% api-method-request %}
-      {% api-method-path-parameters %}
-        {% api-method-parameter name="ida" type="string" %}
-          ID of the cake to get, for free of course.
+      {% api-method-headers %}
+        {% api-method-parameter name="If-Match" type="string" %}
         {% endapi-method-parameter %}
-      {% endapi-method-path-parameters %}
-
+      {% endapi-method-headers %}
     {% endapi-method-request %}
+    {% api-method-response %}
+    {% endapi-method-response %}
   {% endapi-method-spec %}
 {% endapi-method %}

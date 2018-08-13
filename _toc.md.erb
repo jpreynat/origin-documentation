@@ -6,6 +6,6 @@
 <% indexes.each do |namespace, versions| %>
 * [<%= namespace.humanize.titlecase %>](<%= namespace %>/README.md)
 <% versions.each do |version| %>
-  * [<%= version %>](<%= namespace %>/<%= version %>.md)
+  * [<%= namespace %> <%= version %>](<%= namespace %>/<%= version %>.md)
 <% end %>
 <% end %>

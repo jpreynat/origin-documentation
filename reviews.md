@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T02:49:22-07:00
+description: Last updated 2018-08-13T02:56:11-07:00
 ---
 
 # Reviews
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.093+00:00">2018-08-13T09:49:22.093+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.685+00:00">2018-08-13T09:56:11.685+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -18,32 +18,24 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
+    {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/reviews" %}
@@ -52,7 +44,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.096+00:00">2018-08-13T09:49:22.096+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.687+00:00">2018-08-13T09:56:11.687+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -60,33 +52,23 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Content-Type" type="string" required=true %}
         `application/vnd.api+json`
       {% endapi-method-parameter %}
@@ -99,7 +81,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.099+00:00">2018-08-13T09:49:22.099+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.688+00:00">2018-08-13T09:56:11.688+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -107,32 +89,24 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
+    {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
 {% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/reviews/{id}" %}
@@ -141,7 +115,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.102+00:00">2018-08-13T09:49:22.102+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.690+00:00">2018-08-13T09:56:11.690+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -149,33 +123,23 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Content-Type" type="string" required=true %}
         `application/vnd.api+json`
       {% endapi-method-parameter %}
@@ -188,7 +152,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.105+00:00">2018-08-13T09:49:22.105+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.691+00:00">2018-08-13T09:56:11.691+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -196,33 +160,23 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Content-Type" type="string" required=true %}
         `application/vnd.api+json`
       {% endapi-method-parameter %}
@@ -235,7 +189,7 @@ description: Last updated 2018-08-13T02:49:22-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:49:22.108+00:00">2018-08-13T09:49:22.108+00:00</time>*.
+    *Last updated <time time="2018-08-13T09:56:11.692+00:00">2018-08-13T09:56:11.692+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -243,31 +197,23 @@ description: Last updated 2018-08-13T02:49:22-07:00
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-None-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Modified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="If-Unmodified-Since" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
-    {% api-method-headers %}
       {% api-method-parameter name="Accept" type="string" required=true %}
         `application/vnd.api+json` OR `*/*`
       {% endapi-method-parameter %}
-    {% endapi-method-headers %}
 
+    {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}

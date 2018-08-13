@@ -10,6 +10,10 @@ description: Last updated <%= updated_at %>
     <%= resource.fetch("intent") %>
   {% endapi-method-summary %}
 
+  {% api-method-description %}
+    *Last updated <time time="<%= resource.fetch("updated_at") %>"><%= resource.fetch("updated_at") %></time>*.
+  {% endapi-method-description %}
+
 
 {% endapi-method %}
 <% end %>

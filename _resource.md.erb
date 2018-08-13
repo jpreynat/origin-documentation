@@ -14,7 +14,7 @@ description: Last updated <%= updated_at %>
     *Last updated <time time="<%= resource.fetch("updated_at") %>"><%= resource.fetch("updated_at") %></time>*.
   {% endapi-method-description %}
 
-  {% api-method-request %
+  {% api-method-request %}
     {% api-method-headers %}
       {% api-method-parameter name="If-Match" type="string" required=false %}
         [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)

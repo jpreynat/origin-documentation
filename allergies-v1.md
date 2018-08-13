@@ -1,8 +1,8 @@
 ---
-description: Last updated 2018-08-13T01:17:09-07:00
+description: Last updated 2018-08-13T01:43:27-07:00
 ---
 
-# allergies (v1)
+# Allergies v1
 
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/allergies" %}
   {% api-method-summary %}
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.916+00:00">2018-08-13T08:17:08.916+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.620+00:00">2018-08-13T08:43:27.620+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -52,7 +52,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.918+00:00">2018-08-13T08:17:08.918+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.622+00:00">2018-08-13T08:43:27.622+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

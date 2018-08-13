@@ -1,6 +1,11 @@
 # Table of contents
 
 * [Introduction to the Service](README.md)
-<% indexes.each do |index| %>
-* [<%= index.fetch(:namespace).humanize.titlecase %> \(<%= index.fetch(:version) %>\)](<%= index.fetch(:namespace) %>-<%= index.fetch(:version) %>.md)
+* [Changelog](CHANGELOG.md)
+* [Code Of Conduct](CODE_OF_CONDUCT.md)
+<% indexes.each do |namespace, versions| %>
+* [<%= namespace.humanize.titlecase %>](<%= namespace %>.md)
+<% versions.each do |version| %>
+  * [<%= version %>](<%= namespace %>-<%= version %>.md)
+<% end %>
 <% end %>

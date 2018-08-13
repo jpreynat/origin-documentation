@@ -1,8 +1,8 @@
 ---
-description: Last updated 2018-08-13T01:17:09-07:00
+description: Last updated 2018-08-13T01:43:27-07:00
 ---
 
-# reviews (v1)
+# Reviews v1
 
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/reviews" %}
   {% api-method-summary %}
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.969+00:00">2018-08-13T08:17:08.969+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.690+00:00">2018-08-13T08:43:27.690+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -52,7 +52,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.972+00:00">2018-08-13T08:17:08.972+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.693+00:00">2018-08-13T08:43:27.693+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -99,7 +99,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.974+00:00">2018-08-13T08:17:08.974+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.696+00:00">2018-08-13T08:43:27.696+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -141,7 +141,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.976+00:00">2018-08-13T08:17:08.976+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.699+00:00">2018-08-13T08:43:27.699+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -188,7 +188,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.978+00:00">2018-08-13T08:17:08.978+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.702+00:00">2018-08-13T08:43:27.702+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -235,7 +235,7 @@ description: Last updated 2018-08-13T01:17:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:17:08.980+00:00">2018-08-13T08:17:08.980+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:43:27.705+00:00">2018-08-13T08:43:27.705+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

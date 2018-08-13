@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T02:56:11-07:00
+description: Last updated 2018-08-13T03:03:24-07:00
 ---
 
 # Payments
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.673+00:00">2018-08-13T09:56:11.673+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.493+00:00">2018-08-13T10:03:24.493+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -36,7 +36,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -44,7 +44,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.674+00:00">2018-08-13T09:56:11.674+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.496+00:00">2018-08-13T10:03:24.496+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -73,7 +73,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
         `application/vnd.api+json`
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -81,7 +81,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.675+00:00">2018-08-13T09:56:11.675+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.499+00:00">2018-08-13T10:03:24.499+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -107,7 +107,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -115,7 +115,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.677+00:00">2018-08-13T09:56:11.677+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.501+00:00">2018-08-13T10:03:24.501+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -144,7 +144,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
         `application/vnd.api+json`
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="PUT" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -152,7 +152,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.678+00:00">2018-08-13T09:56:11.678+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.504+00:00">2018-08-13T10:03:24.504+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -181,7 +181,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
         `application/vnd.api+json`
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -189,7 +189,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.680+00:00">2018-08-13T09:56:11.680+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.507+00:00">2018-08-13T10:03:24.507+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -215,7 +215,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -223,7 +223,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.681+00:00">2018-08-13T09:56:11.681+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.509+00:00">2018-08-13T10:03:24.509+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -249,7 +249,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
   {% api-method-summary %}
@@ -257,7 +257,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.683+00:00">2018-08-13T09:56:11.683+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.512+00:00">2018-08-13T10:03:24.512+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -286,7 +286,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
         `application/vnd.api+json`
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
   {% api-method-summary %}
@@ -294,7 +294,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.684+00:00">2018-08-13T09:56:11.684+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.515+00:00">2018-08-13T10:03:24.515+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -320,5 +320,5 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}

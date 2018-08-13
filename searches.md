@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T02:56:11-07:00
+description: Last updated 2018-08-13T03:03:24-07:00
 ---
 
 # Searches
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.694+00:00">2018-08-13T09:56:11.694+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.534+00:00">2018-08-13T10:03:24.534+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -39,7 +39,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
         `application/vnd.api+json`
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}
 {% api-method method="GET" host="https://origin.poutineer.com" path="/v1/searches/{id}" %}
   {% api-method-summary %}
@@ -47,7 +47,7 @@ description: Last updated 2018-08-13T02:56:11-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T09:56:11.695+00:00">2018-08-13T09:56:11.695+00:00</time>*.
+    *Last updated <time time="2018-08-13T10:03:24.536+00:00">2018-08-13T10:03:24.536+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %}
@@ -73,5 +73,5 @@ description: Last updated 2018-08-13T02:56:11-07:00
       {% endapi-method-parameter %}
 
     {% endapi-method-headers %}
-  {% endapi-method-response %}
+  {% endapi-method-request %}
 {% endapi-method %}

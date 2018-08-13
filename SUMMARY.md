@@ -4,4 +4,4 @@
 * [Changelog](CHANGELOG.md)
 * [Code Of Conduct](CODE_OF_CONDUCT.md)
 * [Accounts](accounts.md)
-  * [v1](accounts/v1.md)
+  * [v1](accounts/va.md)

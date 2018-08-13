@@ -1,8 +1,15 @@
 # Table of contents
 
 * [Introduction to the Service](README.md)
-* [Accounts \(v1\)](accounts-v1.md)
-* [Payments \(v1\)](payments-v1.md)
-* [Sessions \(v1\)](sessions-v1.md)
-* [JSONAPI Home Resources \(v1\)](jsonapi-home-resources-v1.md)
-
+* [Accounts \(v1\)](/accounts-v1)
+* [Allergies \(v1\)](/allergies-v1)
+* [Diets \(v1\)](/diets-v1)
+* [Establishments \(v1\)](/establishments-v1)
+* [Menu Items \(v1\)](/menu-items-v1)
+* [Payment Types \(v1\)](/payment-types-v1)
+* [Payments \(v1\)](/payments-v1)
+* [Reviews \(v1\)](/reviews-v1)
+* [Searches \(v1\)](/searches-v1)
+* [Sessions \(v1\)](/sessions-v1)
+* [Tags \(v1\)](/tags-v1)
+* [JSONAPI Home Resources \(v1\)](/jsonapi-home-resources-v1)

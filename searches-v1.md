@@ -1,17 +1,16 @@
 ---
-description: Last updated 2018-08-13T00:29:52-07:00
+description: Last updated 2018-08-13T01:04:09-07:00
 ---
 
-# jsonapi-home-resources (v1)
+# searches (v1)
 
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/jsonapi-home-resources" %}
+{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/searches" %}
   {% api-method-summary %}
-    index
+    create
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    All discoverable HTTP JSON:API endpoints that this server knows about.
-    *Last updated <time time="2018-08-13T07:29:52.825+00:00">2018-08-13T07:29:52.825+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.261+00:00">2018-08-13T08:04:09.261+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -45,16 +44,20 @@ description: Last updated 2018-08-13T00:29:52-07:00
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
 
+    {% api-method-headers %}
+      {% api-method-parameter name="Content-Type" type="string" required=true %}
+        `application/vnd.api+json`
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/jsonapi-home-resources/{id}" %}
+{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/searches/{id}" %}
   {% api-method-summary %}
     show
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    All discoverable HTTP JSON:API endpoints that this server knows about.
-    *Last updated <time time="2018-08-13T07:29:52.829+00:00">2018-08-13T07:29:52.829+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.265+00:00">2018-08-13T08:04:09.265+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

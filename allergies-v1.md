@@ -2,15 +2,15 @@
 description: Last updated 2018-08-13T01:04:09-07:00
 ---
 
-# sessions (v1)
+# allergies (v1)
 
-{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/sessions" %}
+{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/allergies" %}
   {% api-method-summary %}
-    create
+    index
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.269+00:00">2018-08-13T08:04:09.269+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.115+00:00">2018-08-13T08:04:09.115+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -44,20 +44,15 @@ description: Last updated 2018-08-13T01:04:09-07:00
       {% endapi-method-parameter %}
     {% endapi-method-headers %}
 
-    {% api-method-headers %}
-      {% api-method-parameter name="Content-Type" type="string" required=true %}
-        `application/vnd.api+json`
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/sessions/{id}" %}
+{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/allergies/{id}" %}
   {% api-method-summary %}
-    destroy
+    show
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.275+00:00">2018-08-13T08:04:09.275+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.119+00:00">2018-08-13T08:04:09.119+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

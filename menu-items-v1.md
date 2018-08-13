@@ -1,17 +1,16 @@
 ---
-description: Last updated 2018-08-13T00:29:52-07:00
+description: Last updated 2018-08-13T01:04:09-07:00
 ---
 
-# payments (v1)
+# menu-items (v1)
 
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments" %}
+{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/menu_items" %}
   {% api-method-summary %}
     index
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.764+00:00">2018-08-13T07:29:52.764+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.157+00:00">2018-08-13T08:04:09.157+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -47,14 +46,13 @@ description: Last updated 2018-08-13T00:29:52-07:00
 
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
+{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/menu_items" %}
   {% api-method-summary %}
     create
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.767+00:00">2018-08-13T07:29:52.767+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.162+00:00">2018-08-13T08:04:09.162+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -95,14 +93,13 @@ description: Last updated 2018-08-13T00:29:52-07:00
     {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
+{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
     show
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.770+00:00">2018-08-13T07:29:52.770+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.166+00:00">2018-08-13T08:04:09.166+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -138,14 +135,13 @@ description: Last updated 2018-08-13T00:29:52-07:00
 
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
+{% api-method method="PATCH" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
     update
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.773+00:00">2018-08-13T07:29:52.773+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.171+00:00">2018-08-13T08:04:09.171+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -186,14 +182,13 @@ description: Last updated 2018-08-13T00:29:52-07:00
     {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="PUT" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
+{% api-method method="PUT" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
     update
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.776+00:00">2018-08-13T07:29:52.776+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.175+00:00">2018-08-13T08:04:09.175+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -234,148 +229,13 @@ description: Last updated 2018-08-13T00:29:52-07:00
     {% endapi-method-headers %}
   {% endapi-method-response %}
 {% endapi-method %}
-{% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
+{% api-method method="DELETE" host="https://origin.poutineer.com" path="/v1/menu_items/{id}" %}
   {% api-method-summary %}
     destroy
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.779+00:00">2018-08-13T07:29:52.779+00:00</time>*.
-  {% endapi-method-description %}
-
-  {% api-method-request %
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-None-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Modified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Unmodified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="Accept" type="string" required=true %}
-        `application/vnd.api+json` OR `*/*`
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-  {% endapi-method-response %}
-{% endapi-method %}
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments" %}
-  {% api-method-summary %}
-    index
-  {% endapi-method-summary %}
-
-  {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.782+00:00">2018-08-13T07:29:52.782+00:00</time>*.
-  {% endapi-method-description %}
-
-  {% api-method-request %
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-None-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Modified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Unmodified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="Accept" type="string" required=true %}
-        `application/vnd.api+json` OR `*/*`
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-  {% endapi-method-response %}
-{% endapi-method %}
-{% api-method method="POST" host="https://origin.poutineer.com" path="/v1/payments" %}
-  {% api-method-summary %}
-    create
-  {% endapi-method-summary %}
-
-  {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.785+00:00">2018-08-13T07:29:52.785+00:00</time>*.
-  {% endapi-method-description %}
-
-  {% api-method-request %
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-None-Match" type="Etag" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Modified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="If-Unmodified-Since" type="HTTP-date" required=false %}
-        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="Accept" type="string" required=true %}
-        `application/vnd.api+json` OR `*/*`
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-
-    {% api-method-headers %}
-      {% api-method-parameter name="Content-Type" type="string" required=true %}
-        `application/vnd.api+json`
-      {% endapi-method-parameter %}
-    {% endapi-method-headers %}
-  {% endapi-method-response %}
-{% endapi-method %}
-{% api-method method="GET" host="https://origin.poutineer.com" path="/v1/payments/{id}" %}
-  {% api-method-summary %}
-    show
-  {% endapi-method-summary %}
-
-  {% api-method-description %}
-    A JSON:API resource as defined at https://www.jsonapi.org.
-    *Last updated <time time="2018-08-13T07:29:52.788+00:00">2018-08-13T07:29:52.788+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:04:09.179+00:00">2018-08-13T08:04:09.179+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

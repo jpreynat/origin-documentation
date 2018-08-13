@@ -1,0 +1,7 @@
+# Table of contents
+
+* [Introduction to the Service](README.md)
+* Resources
+<% indexes.each do |index| %>
+  * [<%= index.fetch(:namespace).humanize.titlecase %> \(<%= index.fetch(:version) %>\)](/<%= index.fetch(:namespace) %>/<%= index.fetch(:version) %>)
+<% end %>

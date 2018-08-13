@@ -1,0 +1,58 @@
+---
+description: Last updated <%= updated_at %>
+---
+
+# <%= namespace %> (<%= version %>)
+
+<% collection.each do |resource| %>
+{% api-method method="<%= resource.fetch("verb") %>" host="<%= Addressable::URI.parse(resource.fetch("href")).origin %>" path="<%= Addressable::URI.parse(resource.fetch("href")).path %>" %}
+  {% api-method-summary %}
+    <%= resource.fetch("intent") %>
+  {% endapi-method-summary %}
+
+  {% api-method-description %}
+    <%= resource.fetch("description") %>.
+    *Last updated <time time="<%= resource.fetch("updated_at") %>"><%= resource.fetch("updated_at") %></time>*.
+  {% endapi-method-description %}
+
+  {% api-method-request %
+    {% api-method-headers %}
+      {% api-method-parameter name="If-Match" type="Etag" required=false %}
+        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+
+    {% api-method-headers %}
+      {% api-method-parameter name="If-None-Match" type="Etag" required=false %}
+        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+
+    {% api-method-headers %}
+      {% api-method-parameter name="If-Modified-Since" type="HTTP-date" required=false %}
+        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+
+    {% api-method-headers %}
+      {% api-method-parameter name="If-Unmodified-Since" type="HTTP-date" required=false %}
+        [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+
+    {% api-method-headers %}
+      {% api-method-parameter name="Accept" type="string" required=true %}
+        `<%= resource.fetch("mediatype") %>` OR `*/*`
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+
+<% if resource.fetch("verb").in?(["POST", "PUT", "PATCH"]) %>
+    {% api-method-headers %}
+      {% api-method-parameter name="Content-Type" type="string" required=true %}
+        `<%= resource.fetch("mediatype") %>`
+      {% endapi-method-parameter %}
+    {% endapi-method-headers %}
+<% end %>
+  {% endapi-method-response %}
+{% endapi-method %}
+<% end %>

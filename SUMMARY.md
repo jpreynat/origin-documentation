@@ -1,5 +1,5 @@
 # Table of contents
 
-test
-
 * [Introduction to the Service](README.md)
+* [jsonapi-home-resources \(v1\)](jsonapi-home-resources-v1.md)
+

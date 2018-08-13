@@ -1,31 +1,31 @@
-Welcome to the Poutineer Origin Service developer hub. You'll find comprehensive guides and documentation to help you start working with Poutineer Origin Service as quickly as possible, as well as support if you get stuck. Let's jump right in!
+# Introduction to the Service
 
+Welcome to the Poutineer Origin Service developer hub. You'll find comprehensive guides and documentation to help you start working with Poutineer Origin Service as quickly as possible, as well as support if you get stuck. Let's jump right in!
 
 ## Service Understanding
 
-This document describes the basic concepts for using the HTTP API for Poutineer's origin service. Each resource uses [the JSON:API standard](https://jsonapi.org). You can find all resources via [JSON:API Home](#) by accessing the [Origin JSON:API Home Resources](#) resource.
-
+This document describes the basic concepts for using the HTTP API for Poutineer's origin service. Each resource uses [the JSON:API standard](https://jsonapi.org). You can find all resources via [JSON:API Home](./) by accessing the [Origin JSON:API Home Resources](./) resource.
 
 ### Requests
 
 A request **MUST** contain the `Accept` header with the [JSON:API mediatype](http://jsonapi.org/format/#introduction).
 
-``` http
+```http
 GET https://origin.poutineer.com/v1/establishments/
 Accept: application/vnd.api+json
 ```
 
-A resource *MAY* require authentication, which you can either get [by requesting a cookie](http://google.com) or by using the account's `authentication_secret` (Encoded in base64) as a [Authorization Bearer Token](https://swagger.io/docs/specification/authentication/bearer-authentication/).
+A resource _MAY_ require authentication, which you can either get [by requesting a cookie](http://google.com) or by using the account's `authentication_secret` \(Encoded in base64\) as a [Authorization Bearer Token](https://swagger.io/docs/specification/authentication/bearer-authentication/).
 
-``` http
+```http
 GET https://origin.poutineer.com/v1/establishments/smoke-s-poutinerie
 Authorization: Bearer am1OdWpQb3BTbnhnYi1FaGN5Skg=
 Accept: application/vnd.api+json
 ```
 
-If a request has a body (`PUT`, `PATCH`, `POST`) then you **MUST** provide a `Content-Type` header.
+If a request has a body \(`PUT`, `PATCH`, `POST`\) then you **MUST** provide a `Content-Type` header.
 
-``` http
+```http
 POST https://origin.poutineer.com/v1/accounts/krainboltgreene
 Authorization: Bearer am1OdWpQb3BTbnhnYi1FaGN5Skg=
 Accept: application/vnd.api+json
@@ -41,10 +41,9 @@ Content-Type: application/vnd.api+json
 }
 ```
 
-
 ### Responses
 
-``` http
+```http
 POST /v1/accounts HTTP/1.1
 Host: origin.poutineer.com
 User-Agent: insomnia/6.0.2
@@ -52,16 +51,16 @@ Content-Type: application/vnd.api+json
 Accept: application/vnd.api+json
 Content-Length: 141
 {
-	"data": {
-		"type": "accounts",
-		"attributes": {
-			"email": "kurtis7209b4e6-0611-4956-9769-1c8b846630be@rainbolt-greene.online"
-		}
-	}
+    "data": {
+        "type": "accounts",
+        "attributes": {
+            "email": "kurtis7209b4e6-0611-4956-9769-1c8b846630be@rainbolt-greene.online"
+        }
+    }
 }
 ```
 
-``` http
+```http
 HTTP/1.1 201 Created
 Server: Cowboy
 Connection: keep-alive
@@ -84,25 +83,26 @@ Content-Security-Policy: default-src 'self' https:; font-src 'self' https: data:
 Transfer-Encoding: chunked
 Via: 1.1 vegur
 {
-	"data": {
-		"type": "accounts",
-		"id": "0e53d53f-8d51-4921-8d9c-b05e87136bbc",
-		"links": {
-			"self": "/accounts/0e53d53f-8d51-4921-8d9c-b05e87136bbc"
-		}
-	},
-	"jsonapi": {
-		"version": "1.0"
-	},
-	"meta": {
-		"api": {
-			"version": "1"
-		}
-	},
-	"links": {
-		"discovery": {
-			"href": "/"
-		}
-	}
+    "data": {
+        "type": "accounts",
+        "id": "0e53d53f-8d51-4921-8d9c-b05e87136bbc",
+        "links": {
+            "self": "/accounts/0e53d53f-8d51-4921-8d9c-b05e87136bbc"
+        }
+    },
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "meta": {
+        "api": {
+            "version": "1"
+        }
+    },
+    "links": {
+        "discovery": {
+            "href": "/"
+        }
+    }
 }
 ```
+

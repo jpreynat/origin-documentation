@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T01:04:09-07:00
+description: Last updated 2018-08-13T01:17:09-07:00
 ---
 
 # sessions (v1)
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T01:04:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.269+00:00">2018-08-13T08:04:09.269+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:17:08.986+00:00">2018-08-13T08:17:08.986+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -57,7 +57,7 @@ description: Last updated 2018-08-13T01:04:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.275+00:00">2018-08-13T08:04:09.275+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:17:08.989+00:00">2018-08-13T08:17:08.989+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

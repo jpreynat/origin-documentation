@@ -1,5 +1,5 @@
 ---
-description: Last updated 2018-08-13T01:04:09-07:00
+description: Last updated 2018-08-13T01:17:09-07:00
 ---
 
 # allergies (v1)
@@ -10,7 +10,7 @@ description: Last updated 2018-08-13T01:04:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.115+00:00">2018-08-13T08:04:09.115+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:17:08.916+00:00">2018-08-13T08:17:08.916+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %
@@ -52,7 +52,7 @@ description: Last updated 2018-08-13T01:04:09-07:00
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="2018-08-13T08:04:09.119+00:00">2018-08-13T08:04:09.119+00:00</time>*.
+    *Last updated <time time="2018-08-13T08:17:08.918+00:00">2018-08-13T08:17:08.918+00:00</time>*.
   {% endapi-method-description %}
 
   {% api-method-request %

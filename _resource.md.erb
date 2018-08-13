@@ -3,20 +3,3 @@ description: Last updated <%= updated_at %>
 ---
 
 # <%= namespace.humanize.titlecase %>
-
-<% collection.each do |resource| %>
-{% api-method method="<%= resource.fetch("verb") %>" host="<%= Addressable::URI.parse(resource.fetch("href")).origin %>" path="<%= Addressable::URI.parse(resource.fetch("href")).path %>" %}
-  {% api-method-summary %}
-    <%= resource.fetch("intent") %>
-  {% endapi-method-summary %}
-
-  {% api-method-description %}
-    *Last updated <time time="<%= resource.fetch("updated_at") %>"><%= resource.fetch("updated_at") %></time>*.
-  {% endapi-method-description %}
-
-  {% api-method-spec %}
-    {% api-method-request %}
-    {% endapi-method-request %}
-  {% endapi-method-spec %}
-{% endapi-method %}
-<% end %>

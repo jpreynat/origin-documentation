@@ -3,9 +3,6 @@
 * [Introduction to the Service](README.md)
 * [Changelog](changelog.md)
 * [Code Of Conduct](code_of_conduct.md)
-<% indexes.each do |namespace, versions| %>
-* [<%= namespace.humanize.titlecase %>](<%= namespace %>/README.md)
-<% versions.each do |version| %>
-  * [<%= namespace %> <%= version %>](<%= namespace %>/<%= version %>.md)
-<% end %>
+<% namespaces.each do |namespace| %>
+* [<%= namespace.humanize.titlecase %>](<%= namespace %>.md)
 <% end %>

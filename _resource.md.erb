@@ -11,9 +11,7 @@ description: Last updated <%= updated_at %>
   {% endapi-method-summary %}
 
   {% api-method-description %}
-    *Last updated <time time="<%= resource.fetch("updated_at") %>"><%= resource.fetch("updated_at") %></time>*.
+    *Last updated <%= resource.fetch("updated_at") %>*.
   {% endapi-method-description %}
-
-
 {% endapi-method %}
 <% end %>

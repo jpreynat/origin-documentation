@@ -5,39 +5,39 @@ description: Last updated 2018-08-13T04:02:58-07:00
 # Establishments
 
 {% api-method method="get" host="https://origin.poutineer.com" path="/v1/establishments" %}
-  {% api-method-summary %}
-    index
-  {% endapi-method-summary %}
-  {% api-method-description %}
-    Index establishments
-  {% end-api-method-description %}
+{% api-method-summary %}
+index
+{% endapi-method-summary %}
+{% api-method-description %}
+Index establishments
+{% end-api-method-description %}
 
-  {% api-method-spec %}
-    {% api-method-request %}
-      {% api-method-headers %}
-        {% api-method-parameter name="If-Match" type="string" %}
-          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match
-        {% endapi-method-parameter %}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="If-Match" type="string" %}
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="If-None-Match" type="string" %}
-          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
-        {% endapi-method-parameter %}
+{% api-method-parameter name="If-None-Match" type="string" %}
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="If-Modified-Since" type="string" %}
-          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since
-        {% endapi-method-parameter %}
+{% api-method-parameter name="If-Modified-Since" type="string" %}
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="If-Unmodified-Since" type="string" %}
-          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since
-        {% endapi-method-parameter %}
+{% api-method-parameter name="If-Unmodified-Since" type="string" %}
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since
+{% endapi-method-parameter %}
 
-        {% api-method-parameter name="Accept" type="string" required=true %}
-          `application/vnd.api+json` OR `*/*`
-        {% endapi-method-parameter %}
+{% api-method-parameter name="Accept" type="string" required=true %}
+`application/vnd.api+json` OR `*/*`
+{% endapi-method-parameter %}
 
-      {% endapi-method-headers %}
-    {% endapi-method-request %}
-  {% endapi-method-spec %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+{% endapi-method-spec %}
 {% endapi-method %}
 {% api-method method="post" host="https://origin.poutineer.com" path="/v1/establishments" %}
   {% api-method-summary %}

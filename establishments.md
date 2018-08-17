@@ -10,7 +10,7 @@ index
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This is a method
 {% endapi-method-description %}
 
 {% api-method-spec %}

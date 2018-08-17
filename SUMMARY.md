@@ -15,4 +15,3 @@
 * [Sessions](sessions.md)
 * [Tags](tags.md)
 * [JSONAPI Home Resources](jsonapi-home-resources.md)
-

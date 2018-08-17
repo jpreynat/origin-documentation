@@ -1,70 +1,70 @@
 ---
-description: 'Last updated 2018-08-13T04:02:58-07:00'
+description: Last updated 2018-08-13T04:02:58-07:00
 ---
 
 # Payment Types
 
-{% api-method method="get" host="https://origin.poutineer.com" path="/v1/payment\_types" %}
-{% api-method-summary %}
-index
-{% endapi-method-summary %}
+{% api-method method="get" host="https://origin.poutineer.com" path="/v1/payment_types" %}
+  {% api-method-summary %}
+    index
+  {% endapi-method-summary %}
 
-{% api-method-description %}
+  {% api-method-spec %}
+    {% api-method-request %}
+      {% api-method-headers %}
+        {% api-method-parameter name="If-Match" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
+        {% endapi-method-parameter %}
 
-{% endapi-method-description %}
+        {% api-method-parameter name="If-None-Match" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+        {% endapi-method-parameter %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+        {% api-method-parameter name="If-Modified-Since" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
+        {% endapi-method-parameter %}
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+        {% api-method-parameter name="If-Unmodified-Since" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
+        {% endapi-method-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
+        {% api-method-parameter name="Accept" type="string" required=true %}
+          `application/vnd.api+json` OR `*/*`
+        {% endapi-method-parameter %}
 
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
+      {% endapi-method-headers %}
+    {% endapi-method-request %}
+  {% endapi-method-spec %}
 {% endapi-method %}
+{% api-method method="get" host="https://origin.poutineer.com" path="/v1/payment_types/{id}" %}
+  {% api-method-summary %}
+    show
+  {% endapi-method-summary %}
 
-{% api-method method="get" host="https://origin.poutineer.com" path="/v1/payment\_types/{id}" %}
-{% api-method-summary %}
-show
-{% endapi-method-summary %}
+  {% api-method-spec %}
+    {% api-method-request %}
+      {% api-method-headers %}
+        {% api-method-parameter name="If-Match" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
+        {% endapi-method-parameter %}
 
-{% api-method-description %}
+        {% api-method-parameter name="If-None-Match" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+        {% endapi-method-parameter %}
 
-{% endapi-method-description %}
+        {% api-method-parameter name="If-Modified-Since" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
+        {% endapi-method-parameter %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+        {% api-method-parameter name="If-Unmodified-Since" type="string" %}
+          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
+        {% endapi-method-parameter %}
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+        {% api-method-parameter name="Accept" type="string" required=true %}
+          `application/vnd.api+json` OR `*/*`
+        {% endapi-method-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
+      {% endapi-method-headers %}
+    {% endapi-method-request %}
+  {% endapi-method-spec %}
 {% endapi-method %}
-

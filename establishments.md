@@ -8,24 +8,27 @@ description: Last updated 2018-08-13T04:02:58-07:00
   {% api-method-summary %}
     index
   {% endapi-method-summary %}
+  {% api-method-description %}
+    Index establishments
+  {% end-api-method-description %}
 
   {% api-method-spec %}
     {% api-method-request %}
       {% api-method-headers %}
         {% api-method-parameter name="If-Match" type="string" %}
-          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
+          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match
         {% endapi-method-parameter %}
 
         {% api-method-parameter name="If-None-Match" type="string" %}
-          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match
         {% endapi-method-parameter %}
 
         {% api-method-parameter name="If-Modified-Since" type="string" %}
-          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
+          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since
         {% endapi-method-parameter %}
 
         {% api-method-parameter name="If-Unmodified-Since" type="string" %}
-          [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
+          https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since
         {% endapi-method-parameter %}
 
         {% api-method-parameter name="Accept" type="string" required=true %}
